@@ -323,7 +323,6 @@
   color: #f2f2f2;
   margin-top: 80px;
   z-index: 2;
-  padding: 0%;
 }
 
 .table__heading_theme_dark {
@@ -340,7 +339,6 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0;
 }
 
 .kaufman__triangle {
@@ -390,7 +388,6 @@
 }
 
 .footer_author {
-  margin: 0;
   padding: 0;
   display: flex;
   margin: 18px 0;
@@ -427,7 +424,6 @@
   font-size: 18px;
   font-weight: normal;
   align-items: center;
-  margin: 0;
 }
 
 .footer__column_content_social {
