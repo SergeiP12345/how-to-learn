@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
@@ -27,12 +26,12 @@
           alt="Изображение мальчик с собакой"
           src="./images/header-image.png "
         />
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
 
-      <section class="description">
+      <section class="description" aria-label>
         <article class="two-columns">
-          <p class="two-columns__brief">Главные проблемы в обучении</p>
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
               Ни в школе, ни в институте нас не учат тому, как правильно изучать
@@ -62,7 +61,7 @@
             <img
               class="cards__image"
               alt="Изображение Книги"
-              src="./images_sprint-2/cards-attention.png"
+              src="./images/cards-attention.png"
             />
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">
@@ -74,7 +73,7 @@
             <img
               class="cards__image"
               alt="Изображение Скульптуры"
-              src="./images_sprint-2/cards-recall.png"
+              src="./images/cards-recall.png"
             />
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">
@@ -86,7 +85,7 @@
             <img
               class="cards__image"
               alt="Изображение фотография внутри здания"
-              src="./images_sprint-2/cards-interliving.png"
+              src="./images/cards-interliving.png"
             />
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">
@@ -97,7 +96,7 @@
             <img
               class="cards__image"
               alt="Изображение мужчина в белой комнате"
-              src="./images_sprint-2/cards-question.png"
+              src="./images/cards-question.png"
             />
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">
@@ -109,7 +108,7 @@
             <img
               class="cards__image"
               alt="Изображение в руке стопка книг"
-              src="./images_sprint-2/cards-competence.png"
+              src="./images/cards-competence.png"
             />
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">
@@ -143,7 +142,7 @@
 
       <section class="oakley">
         <article class="two-columns">
-          <p class="two-columns__brief">История Барбары Оакли.</p>
+          <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
               С детства Барбаре не давалась математика. Она считала себя
@@ -218,20 +217,20 @@
         <article class="khan__container">
           <h3 class="khan__author">Салман Хан</h3>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">
+          <blockquote class="khan__quote">
             Страсть и новаторство Сала Хана меняют процесс обучения миллионов
             студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
             всем, кто занимается образованием — так учащиеся повсюду смогут
             получить навыки и знания, которые приносят успех в школе, карьере и
             жизни.
-          </p>
+          </blockquote>
           <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img
               class="khan__book-pic"
               alt="Обложка Книги"
-              src="images_sprint-2/khan-book.jpg"
+              src="images/khan-book.jpg"
             />
             <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
           </div>
@@ -242,9 +241,9 @@
         <h2 class="section-title section-title_theme_dark">
           Принципы обучения
         </h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">
+        <p class="section-subtitle section-subtitle_theme_dark">
           от Джоша Кауфмана
-        </h3>
+        </p>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">1</h4>
@@ -307,7 +306,7 @@
             </p>
           </li>
         </ul>
-        <a class="kaufman__triangle"></a>
+        <div class="kaufman__triangle rotation"></div>
       </section>
 
       <section class="resources">
@@ -315,36 +314,36 @@
         <p class="section-subtitle">
           Больше материалов о техниках и лайфхаках обучения
         </p>
-        <div class="resources__logo-zone">
-          <a class="resources__logo" href="#">
+        <ul class="resources__logo-zone">
+          <a class="resources__link" href="#">
             <img
-              class="resources__link"
+              class="resources__logo"
               alt="Логотип Арзама"
-              src="./images_sprint-2/logo/resources-arzamas.svg"
+              src="./images/logo/resources-arzamas.svg"
             />
           </a>
-          <a class="resources__logo" href="#">
+          <a class="resources__link" href="#">
             <img
-              class="resources__link"
+              class="resources__logo"
               alt="Логотип N+1"
-              src="./images_sprint-2/logo/resources-n1.svg"
+              src="./images/logo/resources-n1.svg"
             />
           </a>
-          <a class="resources__logo" href="#">
+          <a class="resources__link" href="#">
             <img
-              class="resources__link"
+              class="resources__logo"
               alt="Логотип Стрелка"
-              src="./images_sprint-2/logo/resources-strelka.svg"
+              src="./images/logo/resources-strelka.svg"
             />
           </a>
-          <a class="resources__logo" href="#">
+          <a class="resources__link" href="#">
             <img
-              class="resources__link"
+              class="resources__logo"
               alt="Логотип Полка"
-              src="./images_sprint-2/logo/resources-polka.svg"
+              src="./images/logo/resources-polka.svg"
             />
           </a>
-        </div>
+        </ul>
       </section>
 
       <footer class="footer">
